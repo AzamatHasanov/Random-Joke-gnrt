@@ -23,6 +23,28 @@
             font-size: 16px;
             cursor: pointer;
         }
+        
+        input {
+            padding: 10px;
+            font-size: 16px;
+            width: 200px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        
+        #country-info {
+            margin-top: 20px;
+        }
+        
+        .flag {
+            width: 100px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 
@@ -30,6 +52,15 @@
     <h1>Random Joke Generator</h1>
     <button id="generate">Get a Joke</button>
     <div id="joke">Click the button to get a random joke!</div>
+
+
+    <h1>Country Guide</h1>
+    <input type="text" id="country" placeholder="Enter country name">
+    <button id="search">Search</button>
+
+    <div id="country-info">
+        <!-- Country information will be shown here -->
+    </div>
 
     <script src="main.js"></script>
 </body>
